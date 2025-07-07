@@ -7,7 +7,7 @@
   /* font-weight: <weight>; */
   font-style: normal;
   font-variation-settings:
-    "wdth" 100;
+    "width" 100;
 }
 /* shared style */
 .text-primary{
@@ -17,6 +17,10 @@
     color: #474747;
 }
 
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+
 .btn-primary{
     background-color: #FD6E0A;
     font-weight: bold;
@@ -24,6 +28,17 @@
     padding: 18px 35px;
     border-radius: 5px;
     font-size: 20px;
+}
+
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.section-description{
+    font-size: 18px;
+    color: #757575;
 }
 
 .head{
@@ -88,4 +103,29 @@ nav ul{
 
 .banner-content{
     max-width: 580px;
+}
+/* main styles */
+.main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about styles */
+
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+
+}
+
+.item-description{
+    font-weight: 600;
+
+}
+
+.abbba-items{
+    display: flex;
+    justify-content: space-around;
 }
